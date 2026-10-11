@@ -19,7 +19,7 @@ logo.svg     brand mark "T" (cadangan/awal, tidak dipakai lagi)
 1. Hero — nama perusahaan + mockup kode `NXUI.Tatiye` + CTA
 2. Tentang — profil perusahaan + 3 sorotan (framework OSS, ekosistem produk, rekayasa perangkat lunak)
 3. Layanan — 6 kartu (pengembangan software, framework/library, infrastruktur data, desktop & SDK, integrasi/otomasi, konsultasi)
-4. Produk — kartu utama **NXUI.Tatiye** + grid **Ekosistem NXDOM** (7 produk: NxCode, NXC SDK, NxCode IDE, TeritipDB, NxDOM CLI, NxNode, NxSocket)
+4. Produk — kartu utama **NXUI.Tatiye** + blok penjelasan **NXDOM** (organisasi open source Nusantara yang digagas Tatiye) + grid **Ekosistem NXDOM** (7 produk: NxCode, NXC SDK, NxCode IDE, TeritipDB, NxDOM CLI, NxNode, NxSocket)
 5. Kontak — web, email, GitHub
 6. Footer
 
@@ -51,3 +51,6 @@ Server dev sudah menyediakan folder ini di **http://localhost:8089/** (dengan li
 - Snippet kode hero & produk dikoreksi dari API lama `tatiyeNet`/`objectStorage` → **NXUI.Tatiye**
   (`new NXUI.Tatiye({ ... }).run()` + `templates/<route>.js`), mengacu pada referensi framework di
   `D:\eksplorasi` (`Runtime.md` + `statik/App.js` + `statik/templates/beranda.js`). ✅ SUDAH DIEKSEKUSI
+- Menambah blok penjelasan **NXDOM**: organisasi open source Nusantara yang **digagas oleh PT Tatiye
+  Digital Solusindo**, dengan tautan ke web NXDOM (`https://iyanrsaleh.github.io/nxdom/`, lokal
+  `D:\CLI\nxdom\`). ✅ SUDAH DIEKSEKUSI

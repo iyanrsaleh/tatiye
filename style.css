@@ -181,6 +181,24 @@ code, pre { font-family: var(--mono); }
 .pf-code pre { margin: 0; color: #8fe39b; font-size: 0.85rem; }
 .subhead { font-size: 1.25rem; margin: 0 0 18px; }
 
+/* NXDOM intro */
+.eco-intro {
+  display: flex; align-items: center; gap: 24px; flex-wrap: wrap;
+  background: linear-gradient(135deg, color-mix(in srgb, var(--accent) 6%, #fff), #fff);
+  border: 1px solid color-mix(in srgb, var(--accent) 24%, var(--line));
+  border-radius: var(--radius); padding: 24px 28px; margin-bottom: 22px; box-shadow: var(--shadow-sm);
+}
+.eco-intro-body { flex: 1 1 380px; }
+.eco-badge {
+  display: inline-block; font-size: 0.72rem; font-weight: 700; text-transform: uppercase; letter-spacing: 0.08em;
+  color: var(--accent-strong); background: color-mix(in srgb, var(--accent) 12%, transparent);
+  border-radius: 999px; padding: 4px 12px; margin-bottom: 10px;
+}
+.eco-intro h4 { font-size: 1.25rem; margin: 0 0 8px; }
+.eco-intro p { margin: 0; color: var(--muted); }
+.eco-intro p strong { color: var(--text); }
+.eco-intro p em { font-style: italic; }
+
 /* Ecosystem grid */
 .eco-grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(245px, 1fr)); gap: 16px; }
 .eco-card {
