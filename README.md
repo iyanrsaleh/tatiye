@@ -57,3 +57,8 @@ Server dev sudah menyediakan folder ini di **http://localhost:8089/** (dengan li
 - Emoji ikon diganti **Lucide** (line icons, CDN `unpkg.com/lucide`) — kartu layanan, sorotan
   tentang, dan kontak memakai `<i data-lucide="...">` lalu `lucide.createIcons()` di `index.js`;
   ukuran/stroke diatur di `style.css`. ✅ SUDAH DIEKSEKUSI
+- **Sementara** semua tautan situs `https://tatiye.net/` diarahkan ke
+  `https://iyanrsaleh.github.io/tatiye/` (navbar, kartu produk, kontak, footer). Email
+  `info@tatiye.net` masih placeholder (belum diubah). ✅ SUDAH DIEKSEKUSI
+- Menambah tautan **Sponsor** (`https://github.com/sponsors/iyanrsaleh`) di navbar (tombol pink
+  dengan ikon heart) dan footer. ✅ SUDAH DIEKSEKUSI

@@ -52,6 +52,9 @@ code, pre { font-family: var(--mono); }
 .btn-primary:hover { background: var(--accent-strong); }
 .btn-ghost { border-color: var(--line-strong); color: var(--text); background: #fff; }
 .btn-ghost:hover { border-color: var(--accent); color: var(--accent-strong); }
+.sponsor-link { color: #db61a2; border-color: color-mix(in srgb, #db61a2 35%, transparent); }
+.sponsor-link:hover { color: #c94f8f; border-color: #db61a2; }
+.sponsor-link svg { width: 15px; height: 15px; stroke-width: 2; }
 .btn-sm { padding: 8px 16px; font-size: 0.85rem; }
 
 /* Navbar */
@@ -253,6 +256,8 @@ code, pre { font-family: var(--mono); }
 .footer-links { display: flex; gap: 18px; margin-left: auto; flex-wrap: wrap; }
 .footer-links a { color: var(--muted); font-size: 0.9rem; }
 .footer-links a:hover { color: var(--text); }
+.footer-links .text-pink { color: #db61a2; }
+.footer-links .text-pink:hover { color: #c94f8f; }
 .footer-copy { width: 100%; color: var(--muted); font-size: 0.8rem; margin: 0; }
 
 /* Responsive */

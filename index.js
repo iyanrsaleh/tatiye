@@ -8,6 +8,7 @@ const I18N = {
     "nav.services": "Layanan",
     "nav.products": "Produk",
     "nav.contact": "Kontak",
+    "nav.sponsor": "Sponsor",
     "hero.badge": "PT Tatiye Digital Solusindo",
     "hero.title": "Membangun <span class=\"accent\">solusi digital</span> dari Nusantara",
     "hero.desc": "Kami merancang framework, produk, dan layanan perangkat lunak — rumah bagi framework <strong>tatiye</strong> dan ekosistem <strong>NXDOM</strong>.",
@@ -70,7 +71,8 @@ const I18N = {
     "ct.github": "GitHub",
     "ct.note": "Alamat & nomor telepon resmi dapat Anda lengkapi di berkas <code>index.html</code>.",
     "foot.company": "PT Tatiye Digital Solusindo",
-    "foot.web": "tatiye.net",
+    "foot.web": "iyanrsaleh.github.io/tatiye",
+    "foot.sponsor": "Sponsor",
     "foot.copy": "© 2026 PT Tatiye Digital Solusindo."
   },
   en: {
@@ -80,6 +82,7 @@ const I18N = {
     "nav.services": "Services",
     "nav.products": "Products",
     "nav.contact": "Contact",
+    "nav.sponsor": "Sponsor",
     "hero.badge": "PT Tatiye Digital Solusindo",
     "hero.title": "Building <span class=\"accent\">digital solutions</span> from Nusantara",
     "hero.desc": "We design frameworks, products, and software services — home of the <strong>tatiye</strong> framework and the <strong>NXDOM</strong> ecosystem.",
@@ -142,7 +145,8 @@ const I18N = {
     "ct.github": "GitHub",
     "ct.note": "The official address & phone number can be completed in the <code>index.html</code> file.",
     "foot.company": "PT Tatiye Digital Solusindo",
-    "foot.web": "tatiye.net",
+    "foot.web": "iyanrsaleh.github.io/tatiye",
+    "foot.sponsor": "Sponsor",
     "foot.copy": "© 2026 PT Tatiye Digital Solusindo."
   }
 };
