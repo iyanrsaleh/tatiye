@@ -1,0 +1,206 @@
+// PT Tatiye Digital Solusindo — landing page: i18n ID/EN + interaksi ringan
+
+const I18N = {
+  id: {
+    "meta.title": "PT Tatiye Digital Solusindo — Solusi & Rekayasa Perangkat Lunak",
+    "meta.desc": "PT Tatiye Digital Solusindo — perusahaan teknologi yang membangun framework, produk, dan solusi digital. Rumah bagi framework tatiye dan ekosistem NXDOM.",
+    "nav.about": "Tentang",
+    "nav.services": "Layanan",
+    "nav.products": "Produk",
+    "nav.contact": "Kontak",
+    "hero.badge": "PT Tatiye Digital Solusindo",
+    "hero.title": "Membangun <span class=\"accent\">solusi digital</span> dari Nusantara",
+    "hero.desc": "Kami merancang framework, produk, dan layanan perangkat lunak — rumah bagi framework <strong>tatiye</strong> dan ekosistem <strong>NXDOM</strong>.",
+    "hero.cta1": "Lihat Produk",
+    "hero.cta2": "Hubungi Kami",
+    "hero.chip1": "Framework open source",
+    "hero.chip2": "Ekosistem produk",
+    "hero.chip3": "Rekayasa perangkat lunak",
+    "about.title": "Tentang Kami",
+    "about.sub": "Perusahaan teknologi digital yang membangun produk perangkat lunak untuk komunitas global.",
+    "about.p1": "<strong>PT Tatiye Digital Solusindo</strong> adalah perusahaan induk di balik pengembangan framework <strong>tatiye</strong> — library JavaScript untuk antarmuka DOM — serta produk turunan yang tumbuh menjadi ekosistem <strong>NXDOM</strong>.",
+    "about.p2": "Kami percaya perangkat lunak yang baik lahir dari fondasi yang kokoh: arsitektur yang rapi, dokumentasi yang terbuka, dan komitmen jangka panjang. Karena itu kami membangun framework, SDK, dan tools yang siap dipelajari serta digunakan bersama.",
+    "about.h1t": "Framework open source",
+    "about.h1d": "tatiye / tatiyeNet — fondasi antarmuka berbasis ES6.",
+    "about.h2t": "Ekosistem produk",
+    "about.h2d": "Tujuh produk di bawah payung NXDOM, dari CLI hingga database.",
+    "about.h3t": "Rekayasa perangkat lunak",
+    "about.h3d": "Pengembangan web, desktop, SDK, dan infrastruktur data.",
+    "svc.title": "Layanan",
+    "svc.sub": "Dari framework internal hingga solusi siap pakai untuk kebutuhan bisnis Anda.",
+    "svc.1t": "Pengembangan Perangkat Lunak",
+    "svc.1d": "Aplikasi web, mobile, dan desktop yang dirancang khusus sesuai kebutuhan.",
+    "svc.2t": "Framework & Library",
+    "svc.2d": "Pembuatan framework dan pustaka internal untuk mempercepat tim Anda.",
+    "svc.3t": "Infrastruktur Data",
+    "svc.3d": "Database, API, dan layanan backend yang andal dan efisien.",
+    "svc.4t": "Desktop & SDK",
+    "svc.4d": "SDK native dan aplikasi desktop ringan tanpa ketergantungan berat.",
+    "svc.5t": "Integrasi & Otomasi",
+    "svc.5d": "Menghubungkan sistem dan mengotomasi alur kerja yang berulang.",
+    "svc.6t": "Konsultasi Teknologi",
+    "svc.6d": "Pendampingan arsitektur, audit kode, dan strategi teknologi.",
+    "prod.title": "Produk",
+    "prod.sub": "Framework utama kami dan produk-produk yang tumbuh dari ekosistemnya.",
+    "prod.featureTag": "Framework",
+    "prod.featureDesc": "Library JavaScript untuk antarmuka DOM. Bangun proyek JS yang berjalan native dengan komponen deklaratif dan penyimpanan objek.",
+    "prod.ecoTitle": "Ekosistem NXDOM",
+    "cat.agent": "Agent CLI",
+    "cat.desktop": "Desktop SDK",
+    "cat.ide": "IDE Desktop",
+    "cat.database": "Database",
+    "cat.framework": "Framework CLI",
+    "cat.pkg": "Manajer Paket",
+    "cat.realtime": "Platform Realtime",
+    "eco.agent": "AI coding agent di terminal.",
+    "eco.desktop": "SDK desktop native C++/Qt 6.",
+    "eco.ide": "Editor kode desktop.",
+    "eco.database": "Database dokumen berbasis JSON.",
+    "eco.framework": "CLI untuk semua runtime NXDOM.",
+    "eco.pkg": "Package manager Node.js dengan store bersama.",
+    "eco.realtime": "Platform WebSocket untuk fitur realtime.",
+    "ct.title": "Kontak",
+    "ct.sub": "Punya proyek atau ingin berkolaborasi? Hubungi kami.",
+    "ct.web": "Situs Web",
+    "ct.email": "Email",
+    "ct.github": "GitHub",
+    "ct.note": "Alamat & nomor telepon resmi dapat Anda lengkapi di berkas <code>index.html</code>.",
+    "foot.company": "PT Tatiye Digital Solusindo",
+    "foot.web": "tatiye.net",
+    "foot.copy": "© 2026 PT Tatiye Digital Solusindo."
+  },
+  en: {
+    "meta.title": "PT Tatiye Digital Solusindo — Software Solutions & Engineering",
+    "meta.desc": "PT Tatiye Digital Solusindo — a technology company building frameworks, products, and digital solutions. Home of the tatiye framework and the NXDOM ecosystem.",
+    "nav.about": "About",
+    "nav.services": "Services",
+    "nav.products": "Products",
+    "nav.contact": "Contact",
+    "hero.badge": "PT Tatiye Digital Solusindo",
+    "hero.title": "Building <span class=\"accent\">digital solutions</span> from Nusantara",
+    "hero.desc": "We design frameworks, products, and software services — home of the <strong>tatiye</strong> framework and the <strong>NXDOM</strong> ecosystem.",
+    "hero.cta1": "View Products",
+    "hero.cta2": "Contact Us",
+    "hero.chip1": "Open source framework",
+    "hero.chip2": "Product ecosystem",
+    "hero.chip3": "Software engineering",
+    "about.title": "About Us",
+    "about.sub": "A digital technology company building software products for the global community.",
+    "about.p1": "<strong>PT Tatiye Digital Solusindo</strong> is the parent company behind the <strong>tatiye</strong> framework — a JavaScript library for DOM interfaces — and the derivative products that grew into the <strong>NXDOM</strong> ecosystem.",
+    "about.p2": "We believe good software grows from a solid foundation: clean architecture, open documentation, and long-term commitment. That is why we build frameworks, SDKs, and tools made to be learned and used together.",
+    "about.h1t": "Open source framework",
+    "about.h1d": "tatiye / tatiyeNet — an ES6-based interface foundation.",
+    "about.h2t": "Product ecosystem",
+    "about.h2d": "Seven products under the NXDOM umbrella, from CLI to database.",
+    "about.h3t": "Software engineering",
+    "about.h3d": "Web, desktop, SDK, and data infrastructure development.",
+    "svc.title": "Services",
+    "svc.sub": "From internal frameworks to ready-to-use solutions for your business needs.",
+    "svc.1t": "Software Development",
+    "svc.1d": "Tailor-made web, mobile, and desktop applications.",
+    "svc.2t": "Frameworks & Libraries",
+    "svc.2d": "Building internal frameworks and libraries to speed up your team.",
+    "svc.3t": "Data Infrastructure",
+    "svc.3d": "Reliable and efficient databases, APIs, and backend services.",
+    "svc.4t": "Desktop & SDK",
+    "svc.4d": "Native SDKs and lightweight desktop apps without heavy dependencies.",
+    "svc.5t": "Integration & Automation",
+    "svc.5d": "Connecting systems and automating repetitive workflows.",
+    "svc.6t": "Technology Consulting",
+    "svc.6d": "Architecture guidance, code audits, and technology strategy.",
+    "prod.title": "Products",
+    "prod.sub": "Our core framework and the products that grow from its ecosystem.",
+    "prod.featureTag": "Framework",
+    "prod.featureDesc": "A JavaScript library for DOM interfaces. Build native-running JS projects with declarative components and object storage.",
+    "prod.ecoTitle": "NXDOM Ecosystem",
+    "cat.agent": "CLI Agent",
+    "cat.desktop": "Desktop SDK",
+    "cat.ide": "Desktop IDE",
+    "cat.database": "Database",
+    "cat.framework": "Framework CLI",
+    "cat.pkg": "Package Manager",
+    "cat.realtime": "Realtime Platform",
+    "eco.agent": "AI coding agent in the terminal.",
+    "eco.desktop": "Native C++/Qt 6 desktop SDK.",
+    "eco.ide": "Desktop code editor.",
+    "eco.database": "JSON-based document database.",
+    "eco.framework": "CLI for every NXDOM runtime.",
+    "eco.pkg": "Node.js package manager with a shared store.",
+    "eco.realtime": "WebSocket platform for realtime features.",
+    "ct.title": "Contact",
+    "ct.sub": "Have a project or want to collaborate? Get in touch.",
+    "ct.web": "Website",
+    "ct.email": "Email",
+    "ct.github": "GitHub",
+    "ct.note": "The official address & phone number can be completed in the <code>index.html</code> file.",
+    "foot.company": "PT Tatiye Digital Solusindo",
+    "foot.web": "tatiye.net",
+    "foot.copy": "© 2026 PT Tatiye Digital Solusindo."
+  }
+};
+
+function setLang(lang) {
+  if (!I18N[lang]) lang = "id";
+  document.documentElement.lang = lang;
+  try { localStorage.setItem("tatiye-lang", lang); } catch {}
+
+  document.querySelectorAll("[data-lang-btn]").forEach((btn) => {
+    btn.classList.toggle("active", btn.dataset.langBtn === lang);
+  });
+
+  const dict = I18N[lang];
+  document.querySelectorAll("[data-i18n]").forEach((el) => {
+    const v = dict[el.getAttribute("data-i18n")];
+    if (v != null) el.textContent = v;
+  });
+  document.querySelectorAll("[data-i18n-html]").forEach((el) => {
+    const v = dict[el.getAttribute("data-i18n-html")];
+    if (v != null) el.innerHTML = v;
+  });
+  document.querySelectorAll("[data-i18n-attr]").forEach((el) => {
+    el.getAttribute("data-i18n-attr").split(",").forEach((rule) => {
+      const [attr, key] = rule.split("|");
+      if (attr && key && dict[key] != null) el.setAttribute(attr, dict[key]);
+    });
+  });
+  if (dict["meta.title"]) document.title = dict["meta.title"];
+}
+
+function handleScroll() {
+  const navbar = document.getElementById("navbar");
+  if (navbar) navbar.classList.toggle("scrolled", window.scrollY > 20);
+}
+
+document.addEventListener("DOMContentLoaded", () => {
+  const navLinks = document.getElementById("navLinks");
+  const navToggle = document.getElementById("navToggle");
+
+  document.querySelectorAll("[data-lang-btn]").forEach((btn) => {
+    btn.addEventListener("click", () => setLang(btn.dataset.langBtn));
+  });
+
+  if (navToggle && navLinks) {
+    navToggle.addEventListener("click", () => {
+      const open = navLinks.classList.toggle("open");
+      navToggle.setAttribute("aria-expanded", String(open));
+    });
+    navLinks.querySelectorAll("a").forEach((a) => {
+      a.addEventListener("click", () => {
+        navLinks.classList.remove("open");
+        navToggle.setAttribute("aria-expanded", "false");
+      });
+    });
+  }
+
+  let saved = null;
+  try { saved = localStorage.getItem("tatiye-lang"); } catch {}
+  if (saved) {
+    setLang(saved);
+  } else {
+    const browserLang = (navigator.language || "id").slice(0, 2).toLowerCase();
+    setLang(browserLang === "id" ? "id" : "en");
+  }
+
+  window.addEventListener("scroll", handleScroll);
+  handleScroll();
+});

@@ -1,0 +1,285 @@
+<!doctype html>
+<html lang="id">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title data-i18n="meta.title">PT Tatiye Digital Solusindo — Solusi &amp; Rekayasa Perangkat Lunak</title>
+  <meta name="description" content="PT Tatiye Digital Solusindo — perusahaan teknologi yang membangun framework, produk, dan solusi digital. Rumah bagi framework tatiye dan ekosistem NXDOM." data-i18n-attr="content|meta.desc" />
+  <link rel="icon" href="logo.svg" />
+  <link rel="stylesheet" href="style.css" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&family=Plus+Jakarta+Sans:wght@600;700;800&family=JetBrains+Mono:wght@400;600&display=swap" rel="stylesheet" />
+</head>
+<body>
+
+  <header class="navbar" id="navbar">
+    <div class="container nav-inner">
+      <a href="#beranda" class="brand">
+        <span class="brand-mark">T</span>
+        <span class="brand-text">Tatiye</span>
+      </a>
+      <nav class="nav-links" id="navLinks">
+        <a href="#tentang" data-i18n="nav.about">Tentang</a>
+        <a href="#layanan" data-i18n="nav.services">Layanan</a>
+        <a href="#produk" data-i18n="nav.products">Produk</a>
+        <a href="#kontak" data-i18n="nav.contact">Kontak</a>
+      </nav>
+      <div class="nav-actions">
+        <div class="lang-switch" role="group" aria-label="Language">
+          <button type="button" data-lang-btn="id" class="active">ID</button>
+          <button type="button" data-lang-btn="en">EN</button>
+        </div>
+        <a class="btn btn-primary btn-sm" href="https://tatiye.net" target="_blank" rel="noopener">tatiye.net</a>
+      </div>
+      <button class="nav-toggle" id="navToggle" aria-label="Menu" aria-expanded="false">
+        <span></span><span></span><span></span>
+      </button>
+    </div>
+  </header>
+
+  <main>
+    <!-- HERO -->
+    <section class="hero" id="beranda">
+      <div class="hero-glow"></div>
+      <div class="container hero-grid">
+        <div class="hero-copy">
+          <p class="eyebrow" data-i18n="hero.badge">PT Tatiye Digital Solusindo</p>
+          <h1 data-i18n-html="hero.title">Membangun <span class="accent">solusi digital</span> dari Nusantara</h1>
+          <p class="lede" data-i18n-html="hero.desc">
+            Kami merancang framework, produk, dan layanan perangkat lunak — rumah bagi
+            framework <strong>tatiye</strong> dan ekosistem <strong>NXDOM</strong>.
+          </p>
+          <div class="hero-actions">
+            <a class="btn btn-primary" href="#produk" data-i18n="hero.cta1">Lihat Produk</a>
+            <a class="btn btn-ghost" href="#kontak" data-i18n="hero.cta2">Hubungi Kami</a>
+          </div>
+          <ul class="hero-chips">
+            <li data-i18n="hero.chip1">Framework open source</li>
+            <li data-i18n="hero.chip2">Ekosistem produk</li>
+            <li data-i18n="hero.chip3">Rekayasa perangkat lunak</li>
+          </ul>
+        </div>
+        <div class="hero-visual" aria-hidden="true">
+          <div class="code-card">
+            <div class="code-bar"><span></span><span></span><span></span><em>tatiye</em></div>
+            <pre class="code-body"><span class="c-dim">// tatiyeNet — komponen DOM deklaratif</span>
+<span class="c-key">import</span> tatiyeNet, { objectStorage } <span class="c-key">from</span> <span class="c-str">"tatiyeNet.js"</span>;
+
+objectStorage({
+  <span class="c-str">"status"</span>: <span class="c-str">"development"</span>,
+  <span class="c-str">"storage"</span>: {
+    <span class="c-str">"tabel"</span>: {
+      <span class="c-str">"row"</span>: [<span class="c-str">"demo"</span>, <span class="c-str">"nama,title"</span>, <span class="c-str">"row='1'"</span>, <span class="c-str">"0,5"</span>]
+    }
+  }
+});
+
+<span class="c-dim">&lt;!-- render --&gt;</span>
+&lt;<span class="c-accent">div</span>&gt;{row.TITLE}&lt;/<span class="c-accent">div</span>&gt;</pre>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- TENTANG -->
+    <section class="section" id="tentang">
+      <div class="container">
+        <div class="section-header">
+          <h2 class="section-title" data-i18n="about.title">Tentang Kami</h2>
+          <p class="section-subtitle" data-i18n="about.sub">Perusahaan teknologi digital yang membangun produk perangkat lunak untuk komunitas global.</p>
+        </div>
+        <div class="about-grid">
+          <div class="about-text">
+            <p data-i18n-html="about.p1">
+              <strong>PT Tatiye Digital Solusindo</strong> adalah perusahaan induk di balik
+              pengembangan framework <strong>tatiye</strong> — library JavaScript untuk
+              antarmuka DOM — serta produk turunan yang tumbuh menjadi ekosistem
+              <strong>NXDOM</strong>.
+            </p>
+            <p data-i18n-html="about.p2">
+              Kami percaya perangkat lunak yang baik lahir dari fondasi yang kokoh: arsitektur
+              yang rapi, dokumentasi yang terbuka, dan komitmen jangka panjang. Karena itu kami
+              membangun framework, SDK, dan tools yang siap dipelajari serta digunakan bersama.
+            </p>
+          </div>
+          <ul class="about-highlights">
+            <li>
+              <span class="hl-icon">◆</span>
+              <div>
+                <strong data-i18n="about.h1t">Framework open source</strong>
+                <p data-i18n="about.h1d">tatiye / tatiyeNet — fondasi antarmuka berbasis ES6.</p>
+              </div>
+            </li>
+            <li>
+              <span class="hl-icon">⬡</span>
+              <div>
+                <strong data-i18n="about.h2t">Ekosistem produk</strong>
+                <p data-i18n="about.h2d">Tujuh produk di bawah payung NXDOM, dari CLI hingga database.</p>
+              </div>
+            </li>
+            <li>
+              <span class="hl-icon">⚙</span>
+              <div>
+                <strong data-i18n="about.h3t">Rekayasa perangkat lunak</strong>
+                <p data-i18n="about.h3d">Pengembangan web, desktop, SDK, dan infrastruktur data.</p>
+              </div>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </section>
+
+    <!-- LAYANAN -->
+    <section class="section alt" id="layanan">
+      <div class="container">
+        <div class="section-header">
+          <h2 class="section-title" data-i18n="svc.title">Layanan</h2>
+          <p class="section-subtitle" data-i18n="svc.sub">Dari framework internal hingga solusi siap pakai untuk kebutuhan bisnis Anda.</p>
+        </div>
+        <div class="card-grid">
+          <article class="card">
+            <div class="card-icon">⌘</div>
+            <h3 data-i18n="svc.1t">Pengembangan Perangkat Lunak</h3>
+            <p data-i18n="svc.1d">Aplikasi web, mobile, dan desktop yang dirancang khusus sesuai kebutuhan.</p>
+          </article>
+          <article class="card">
+            <div class="card-icon">⬡</div>
+            <h3 data-i18n="svc.2t">Framework &amp; Library</h3>
+            <p data-i18n="svc.2d">Pembuatan framework dan pustaka internal untuk mempercepat tim Anda.</p>
+          </article>
+          <article class="card">
+            <div class="card-icon">🗄</div>
+            <h3 data-i18n="svc.3t">Infrastruktur Data</h3>
+            <p data-i18n="svc.3d">Database, API, dan layanan backend yang andal dan efisien.</p>
+          </article>
+          <article class="card">
+            <div class="card-icon">🖥</div>
+            <h3 data-i18n="svc.4t">Desktop &amp; SDK</h3>
+            <p data-i18n="svc.4d">SDK native dan aplikasi desktop ringan tanpa ketergantungan berat.</p>
+          </article>
+          <article class="card">
+            <div class="card-icon">⇄</div>
+            <h3 data-i18n="svc.5t">Integrasi &amp; Otomasi</h3>
+            <p data-i18n="svc.5d">Menghubungkan sistem dan mengotomasi alur kerja yang berulang.</p>
+          </article>
+          <article class="card">
+            <div class="card-icon">🛡</div>
+            <h3 data-i18n="svc.6t">Konsultasi Teknologi</h3>
+            <p data-i18n="svc.6d">Pendampingan arsitektur, audit kode, dan strategi teknologi.</p>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- PRODUK -->
+    <section class="section" id="produk">
+      <div class="container">
+        <div class="section-header">
+          <h2 class="section-title" data-i18n="prod.title">Produk</h2>
+          <p class="section-subtitle" data-i18n="prod.sub">Framework utama kami dan produk-produk yang tumbuh dari ekosistemnya.</p>
+        </div>
+
+        <a class="product-feature" href="https://tatiye.net" target="_blank" rel="noopener">
+          <div class="pf-body">
+            <span class="pf-tag" data-i18n="prod.featureTag">Framework</span>
+            <h3>tatiye <span class="muted">/ tatiyeNet</span></h3>
+            <p data-i18n="prod.featureDesc">Library JavaScript untuk antarmuka DOM. Bangun proyek JS yang berjalan native dengan komponen deklaratif dan penyimpanan objek.</p>
+            <span class="pf-link">tatiye.net ↗</span>
+          </div>
+          <div class="pf-code" aria-hidden="true">
+<pre>&lt;div&gt;{row.TITLE}&lt;/div&gt;
+&lt;div&gt;{row.NAMA}&lt;/div&gt;</pre>
+          </div>
+        </a>
+
+        <h3 class="subhead" data-i18n="prod.ecoTitle">Ekosistem NXDOM</h3>
+        <div class="eco-grid">
+          <a class="eco-card" href="https://nxcodeobject.github.io/coding/" target="_blank" rel="noopener">
+            <span class="eco-tag" data-i18n="cat.agent">Agent CLI</span>
+            <h4>NxCode (nxc)</h4>
+            <p data-i18n="eco.agent">AI coding agent di terminal.</p>
+          </a>
+          <a class="eco-card" href="https://nxcodeobject.github.io/nxc/" target="_blank" rel="noopener">
+            <span class="eco-tag" data-i18n="cat.desktop">Desktop SDK</span>
+            <h4>NXC Desktop SDK</h4>
+            <p data-i18n="eco.desktop">SDK desktop native C++/Qt 6.</p>
+          </a>
+          <a class="eco-card" href="https://nxcodeobject.github.io/ide/" target="_blank" rel="noopener">
+            <span class="eco-tag" data-i18n="cat.ide">IDE Desktop</span>
+            <h4>NxCode IDE</h4>
+            <p data-i18n="eco.ide">Editor kode desktop.</p>
+          </a>
+          <a class="eco-card" href="https://teritipdb.github.io/website/" target="_blank" rel="noopener">
+            <span class="eco-tag" data-i18n="cat.database">Database</span>
+            <h4>TeritipDB</h4>
+            <p data-i18n="eco.database">Database dokumen berbasis JSON.</p>
+          </a>
+          <a class="eco-card" href="https://nxdevmodel.github.io/nxdom-cli/" target="_blank" rel="noopener">
+            <span class="eco-tag" data-i18n="cat.framework">Framework CLI</span>
+            <h4>NxDOM CLI</h4>
+            <p data-i18n="eco.framework">CLI untuk semua runtime NXDOM.</p>
+          </a>
+          <a class="eco-card" href="https://nxdevmodel.github.io/nxnode/" target="_blank" rel="noopener">
+            <span class="eco-tag" data-i18n="cat.pkg">Manajer Paket</span>
+            <h4>NxNode</h4>
+            <p data-i18n="eco.pkg">Package manager Node.js dengan store bersama.</p>
+          </a>
+          <a class="eco-card" href="https://nxcodeobject.github.io/nxsocket/" target="_blank" rel="noopener">
+            <span class="eco-tag" data-i18n="cat.realtime">Platform Realtime</span>
+            <h4>NxSocket</h4>
+            <p data-i18n="eco.realtime">Platform WebSocket untuk fitur realtime.</p>
+          </a>
+        </div>
+      </div>
+    </section>
+
+    <!-- KONTAK -->
+    <section class="section alt" id="kontak">
+      <div class="container">
+        <div class="section-header">
+          <h2 class="section-title" data-i18n="ct.title">Kontak</h2>
+          <p class="section-subtitle" data-i18n="ct.sub">Punya proyek atau ingin berkolaborasi? Hubungi kami.</p>
+        </div>
+        <div class="contact-grid">
+          <a class="contact-card" href="https://tatiye.net" target="_blank" rel="noopener">
+            <span class="cc-icon">🌐</span>
+            <strong data-i18n="ct.web">Situs Web</strong>
+            <span>tatiye.net</span>
+          </a>
+          <a class="contact-card" href="mailto:info@tatiye.net">
+            <span class="cc-icon">✉</span>
+            <strong data-i18n="ct.email">Email</strong>
+            <span>info@tatiye.net</span>
+          </a>
+          <a class="contact-card" href="https://github.com/tatiye" target="_blank" rel="noopener">
+            <span class="cc-icon">◇</span>
+            <strong data-i18n="ct.github">GitHub</strong>
+            <span>github.com/tatiye</span>
+          </a>
+        </div>
+        <p class="contact-note" data-i18n-html="ct.note">Alamat &amp; nomor telepon resmi dapat Anda lengkapi di berkas <code>index.html</code>.</p>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <div class="container footer-grid">
+      <div class="footer-brand">
+        <span class="brand-mark">T</span>
+        <div>
+          <strong>Tatiye</strong>
+          <p data-i18n="foot.company">PT Tatiye Digital Solusindo</p>
+        </div>
+      </div>
+      <nav class="footer-links">
+        <a href="https://tatiye.net" target="_blank" rel="noopener" data-i18n="foot.web">tatiye.net</a>
+        <a href="https://github.com/tatiye" target="_blank" rel="noopener">GitHub</a>
+      </nav>
+      <p class="footer-copy" data-i18n="foot.copy">© 2026 PT Tatiye Digital Solusindo.</p>
+    </div>
+  </footer>
+
+  <script src="index.js"></script>
+</body>
+</html>
