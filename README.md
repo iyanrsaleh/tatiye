@@ -54,3 +54,6 @@ Server dev sudah menyediakan folder ini di **http://localhost:8089/** (dengan li
 - Menambah blok penjelasan **NXDOM**: organisasi open source Nusantara yang **digagas oleh PT Tatiye
   Digital Solusindo**, dengan tautan ke web NXDOM (`https://iyanrsaleh.github.io/nxdom/`, lokal
   `D:\CLI\nxdom\`). ✅ SUDAH DIEKSEKUSI
+- Emoji ikon diganti **Lucide** (line icons, CDN `unpkg.com/lucide`) — kartu layanan, sorotan
+  tentang, dan kontak memakai `<i data-lucide="...">` lalu `lucide.createIcons()` di `index.js`;
+  ukuran/stroke diatur di `style.css`. ✅ SUDAH DIEKSEKUSI

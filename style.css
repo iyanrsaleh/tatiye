@@ -143,6 +143,7 @@ code, pre { font-family: var(--mono); }
   width: 34px; height: 34px; flex: 0 0 34px; display: grid; place-items: center; border-radius: 9px;
   background: color-mix(in srgb, var(--accent) 12%, transparent); color: var(--accent-strong); font-size: 1rem; line-height: 1;
 }
+.hl-icon svg { width: 18px; height: 18px; stroke-width: 2; }
 .about-highlights strong { display: block; font-size: 0.98rem; color: var(--text); }
 .about-highlights p { margin: 2px 0 0; color: var(--muted); font-size: 0.9rem; }
 
@@ -157,6 +158,7 @@ code, pre { font-family: var(--mono); }
   width: 44px; height: 44px; border-radius: 12px; display: grid; place-items: center;
   background: color-mix(in srgb, var(--accent) 12%, transparent); color: var(--accent-strong); font-size: 1.2rem; margin-bottom: 14px;
 }
+.card-icon svg { width: 22px; height: 22px; stroke-width: 2; }
 .card h3 { font-size: 1.1rem; }
 .card p { color: var(--muted); font-size: 0.95rem; margin: 0; }
 
@@ -234,7 +236,8 @@ code, pre { font-family: var(--mono); }
   transition: border-color 0.15s ease, transform 0.15s ease, box-shadow 0.15s ease;
 }
 .contact-card:hover { border-color: var(--accent); transform: translateY(-3px); box-shadow: var(--shadow); }
-.cc-icon { font-size: 1.5rem; margin-bottom: 6px; }
+.cc-icon { display: inline-flex; justify-content: center; margin-bottom: 6px; color: var(--accent-strong); }
+.cc-icon svg { width: 26px; height: 26px; stroke-width: 2; }
 .contact-card strong { color: var(--text); }
 .contact-card span { color: var(--muted); font-size: 0.92rem; }
 .contact-note { text-align: center; color: var(--muted); font-size: 0.85rem; margin-top: 24px; }

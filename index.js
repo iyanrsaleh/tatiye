@@ -180,6 +180,10 @@ function handleScroll() {
 }
 
 document.addEventListener("DOMContentLoaded", () => {
+  if (window.lucide && typeof window.lucide.createIcons === "function") {
+    window.lucide.createIcons();
+  }
+
   const navLinks = document.getElementById("navLinks");
   const navToggle = document.getElementById("navToggle");
 
