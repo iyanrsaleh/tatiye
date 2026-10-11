@@ -62,3 +62,5 @@ Server dev sudah menyediakan folder ini di **http://localhost:8089/** (dengan li
   `info@tatiye.net` masih placeholder (belum diubah). ✅ SUDAH DIEKSEKUSI
 - Menambah tautan **Sponsor** (`https://github.com/sponsors/iyanrsaleh`) di navbar (tombol pink
   dengan ikon heart) dan footer. ✅ SUDAH DIEKSEKUSI
+- Ikon **GitHub** tidak tampil karena Lucide tak lagi menyediakan ikon brand → diganti **SVG logo
+  GitHub inline** (selalu tampil tanpa ketergantungan). ✅ SUDAH DIEKSEKUSI
