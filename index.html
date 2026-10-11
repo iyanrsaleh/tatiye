@@ -62,21 +62,24 @@
         </div>
         <div class="hero-visual" aria-hidden="true">
           <div class="code-card">
-            <div class="code-bar"><span></span><span></span><span></span><em>tatiye</em></div>
-            <pre class="code-body"><span class="c-dim">// tatiyeNet — komponen DOM deklaratif</span>
-<span class="c-key">import</span> tatiyeNet, { objectStorage } <span class="c-key">from</span> <span class="c-str">"tatiyeNet.js"</span>;
+            <div class="code-bar"><span></span><span></span><span></span><em>App.js</em></div>
+            <pre class="code-body"><span class="c-dim">// App.js — entry runtime NXUI.Tatiye</span>
+<span class="c-key">import</span> <span class="c-str">"./assets/modules/nxdom.js"</span>;
+<span class="c-key">import</span> config <span class="c-key">from</span> <span class="c-str">"./config.js"</span>;
 
-objectStorage({
-  <span class="c-str">"status"</span>: <span class="c-str">"development"</span>,
-  <span class="c-str">"storage"</span>: {
-    <span class="c-str">"tabel"</span>: {
-      <span class="c-str">"row"</span>: [<span class="c-str">"demo"</span>, <span class="c-str">"nama,title"</span>, <span class="c-str">"row='1'"</span>, <span class="c-str">"0,5"</span>]
-    }
-  }
-});
+<span class="c-key">new</span> <span class="c-accent">NXUI.Tatiye</span>({
+  endpoint: config,
+  containerId: <span class="c-str">"main"</span>,
+  appRoot: <span class="c-str">"templates"</span>,
+  route: [<span class="c-str">"beranda"</span>, <span class="c-str">"autoload"</span>],
+}).run();
 
-<span class="c-dim">&lt;!-- render --&gt;</span>
-&lt;<span class="c-accent">div</span>&gt;{row.TITLE}&lt;/<span class="c-accent">div</span>&gt;</pre>
+<span class="c-dim">// templates/beranda.js — sebuah halaman</span>
+<span class="c-key">export async function</span> beranda(page, route) {
+  route.register(page, <span class="c-key">async</span> (name, container) => {
+    container.innerHTML = <span class="c-str">`&lt;h1&gt;Nxdom Framework&lt;/h1&gt;`</span>;
+  });
+}</pre>
           </div>
         </div>
       </div>
@@ -108,7 +111,7 @@ objectStorage({
               <span class="hl-icon">◆</span>
               <div>
                 <strong data-i18n="about.h1t">Framework open source</strong>
-                <p data-i18n="about.h1d">tatiye / tatiyeNet — fondasi antarmuka berbasis ES6.</p>
+                <p data-i18n="about.h1d">NXUI.Tatiye — runtime SPA/PWA berbasis ES6.</p>
               </div>
             </li>
             <li>
@@ -183,13 +186,15 @@ objectStorage({
         <a class="product-feature" href="https://tatiye.net" target="_blank" rel="noopener">
           <div class="pf-body">
             <span class="pf-tag" data-i18n="prod.featureTag">Framework</span>
-            <h3>tatiye <span class="muted">/ tatiyeNet</span></h3>
-            <p data-i18n="prod.featureDesc">Library JavaScript untuk antarmuka DOM. Bangun proyek JS yang berjalan native dengan komponen deklaratif dan penyimpanan objek.</p>
+            <h3>NXUI.<span class="accent">Tatiye</span></h3>
+            <p data-i18n="prod.featureDesc">Framework runtime SPA/PWA. Kelola route, template, modul, service worker, dan multi-endpoint API dari satu file entry.</p>
             <span class="pf-link">tatiye.net ↗</span>
           </div>
           <div class="pf-code" aria-hidden="true">
-<pre>&lt;div&gt;{row.TITLE}&lt;/div&gt;
-&lt;div&gt;{row.NAMA}&lt;/div&gt;</pre>
+<pre>NXUI.Tatiye({
+  appRoot: <span class="c-str">"templates"</span>,
+  route: [<span class="c-str">"beranda"</span>, <span class="c-str">"autoload"</span>],
+}).run();</pre>
           </div>
         </a>
 

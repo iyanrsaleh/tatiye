@@ -16,10 +16,10 @@ logo.svg     brand mark "T" (cadangan/awal, tidak dipakai lagi)
 
 ## Isi halaman
 
-1. Hero — nama perusahaan + mockup kode `tatiyeNet` + CTA
+1. Hero — nama perusahaan + mockup kode `NXUI.Tatiye` + CTA
 2. Tentang — profil perusahaan + 3 sorotan (framework OSS, ekosistem produk, rekayasa perangkat lunak)
 3. Layanan — 6 kartu (pengembangan software, framework/library, infrastruktur data, desktop & SDK, integrasi/otomasi, konsultasi)
-4. Produk — kartu utama **tatiye / tatiyeNet** + grid **Ekosistem NXDOM** (7 produk: NxCode, NXC SDK, NxCode IDE, TeritipDB, NxDOM CLI, NxNode, NxSocket)
+4. Produk — kartu utama **NXUI.Tatiye** + grid **Ekosistem NXDOM** (7 produk: NxCode, NXC SDK, NxCode IDE, TeritipDB, NxDOM CLI, NxNode, NxSocket)
 5. Kontak — web, email, GitHub
 6. Footer
 
@@ -43,8 +43,11 @@ Server dev sudah menyediakan folder ini di **http://localhost:8089/** (dengan li
   kosong). Mengikuti pola situs NXDOM: statis (HTML/CSS/JS tanpa build step), dwibahasa ID/EN
   via `data-i18n`, tema gelap, navbar + lang switch. ✅ SUDAH DIEKSEKUSI
 - Fakta perusahaan bersumber dari materi yang ada: nama **PT. TATIYE DIGITAL SOLUSINDO**,
-  situs `tatiye.net`, framework **tatiye/tatiyeNet** (`github.com/tatiye/Es6framework`), dan
+  situs `tatiye.net`, framework **NXUI.Tatiye** (`github.com/tatiye/Es6framework`), dan
   relasi induk–anak dengan ekosistem **NXDOM**. Data kontak disisakan sebagai placeholder untuk
   diisi manual (tidak menebak).
 - Tema diubah dari gelap ke **terang/profesional** dengan warna brand **#F2470B** (dominan pada
   `logo.png`); header/footer/favicon memakai `logo.png`. ✅ SUDAH DIEKSEKUSI
+- Snippet kode hero & produk dikoreksi dari API lama `tatiyeNet`/`objectStorage` → **NXUI.Tatiye**
+  (`new NXUI.Tatiye({ ... }).run()` + `templates/<route>.js`), mengacu pada referensi framework di
+  `D:\eksplorasi` (`Runtime.md` + `statik/App.js` + `statik/templates/beranda.js`). ✅ SUDAH DIEKSEKUSI
