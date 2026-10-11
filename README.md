@@ -8,9 +8,10 @@ dan ekosistem **NXDOM**.
 
 ```
 index.html   landing page (hero, tentang, layanan, produk, kontak, footer)
-style.css    tema gelap + aksen biru-cyan, responsif (nav mobile, grid adaptif)
+style.css    tema terang profesional + aksen brand #F2470B, responsif (nav mobile, grid adaptif)
 index.js     i18n ID/EN (localStorage + deteksi bahasa browser) + navbar & menu
-logo.svg     favicon / brand mark "T"
+logo.png     logo perusahaan (header/footer + favicon)
+logo.svg     brand mark "T" (cadangan/awal, tidak dipakai lagi)
 ```
 
 ## Isi halaman
@@ -30,7 +31,8 @@ Server dev sudah menyediakan folder ini di **http://localhost:8089/** (dengan li
 
 - **Kontak**: `info@tatiye.net` masih placeholder — ganti dengan email resmi, dan tambahkan
   alamat + nomor telepon di section Kontak (`index.html`).
-- **Logo**: `logo.svg` saat ini brand mark "T" sederhana — ganti bila ada logo resmi.
+- **Logo**: `logo.png` dipakai di header/footer + favicon (warna dominan **#F2470B**).
+  `logo.svg` (brand mark "T" versi awal) disimpan sebagai cadangan, tidak dipakai lagi.
 - **Layanan**: deskripsi layanan generik; sesuaikan dengan penawaran nyata perusahaan.
 - **Repositori**: tautan GitHub memakai `github.com/tatiye` (framework tatiye). Samakan bila
   organisasi resmi berbeda.
@@ -44,3 +46,5 @@ Server dev sudah menyediakan folder ini di **http://localhost:8089/** (dengan li
   situs `tatiye.net`, framework **tatiye/tatiyeNet** (`github.com/tatiye/Es6framework`), dan
   relasi induk–anak dengan ekosistem **NXDOM**. Data kontak disisakan sebagai placeholder untuk
   diisi manual (tidak menebak).
+- Tema diubah dari gelap ke **terang/profesional** dengan warna brand **#F2470B** (dominan pada
+  `logo.png`); header/footer/favicon memakai `logo.png`. ✅ SUDAH DIEKSEKUSI
