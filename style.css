@@ -246,6 +246,18 @@ code, pre { font-family: var(--mono); }
 .contact-note { text-align: center; color: var(--muted); font-size: 0.85rem; margin-top: 24px; }
 .contact-note code { color: var(--text); background: var(--panel-2); border: 1px solid var(--line); border-radius: 6px; padding: 1px 6px; }
 
+/* Legalitas */
+.legal-box {
+  margin-top: 40px; padding: 28px 32px;
+  background: var(--panel); border: 1px solid var(--line); border-radius: 16px;
+}
+.legal-title { display: flex; align-items: center; gap: 10px; margin: 0 0 18px; font-family: var(--font-display); font-size: 1.05rem; color: var(--text); }
+.legal-title svg { width: 20px; height: 20px; color: var(--accent-strong); }
+.legal-grid { display: grid; grid-template-columns: repeat(4, 1fr); gap: 20px; margin: 0; }
+.legal-item dt { color: var(--muted); font-size: 0.78rem; text-transform: uppercase; letter-spacing: 0.06em; margin-bottom: 4px; }
+.legal-item dd { margin: 0; color: var(--text); font-family: var(--font-mono); font-size: 0.92rem; }
+.legal-box .contact-note { margin-top: 20px; text-align: left; }
+
 /* Footer */
 .footer { border-top: 1px solid var(--line); background: var(--bg-soft); padding: 40px 0 32px; }
 .footer-grid { display: flex; flex-wrap: wrap; align-items: center; gap: 24px; }
@@ -263,6 +275,7 @@ code, pre { font-family: var(--mono); }
 /* Responsive */
 @media (max-width: 900px) {
   .hero-grid, .about-grid, .product-feature { grid-template-columns: 1fr; }
+  .legal-grid { grid-template-columns: repeat(2, 1fr); }
   .pf-code { border-left: 0; border-top: 1px solid var(--line); }
 }
 @media (max-width: 768px) {
@@ -276,4 +289,5 @@ code, pre { font-family: var(--mono); }
   .nav-toggle { display: flex; }
   .nav-actions .btn { display: none; }
   .hero { padding-top: 120px; }
+  .legal-grid { grid-template-columns: 1fr; }
 }
