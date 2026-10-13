@@ -16,7 +16,7 @@
 
   <header class="navbar" id="navbar">
     <div class="container nav-inner">
-      <a href="#beranda" class="brand">
+      <a href="#home" class="brand">
         <img src="logo.png" alt="PT Tatiye Digital Solusindo" class="brand-logo" />
         <span class="brand-text">Tatiye</span>
       </a>
@@ -44,7 +44,7 @@
 
   <main>
     <!-- HERO -->
-    <section class="hero" id="beranda">
+    <section class="hero" id="home">
       <div class="hero-glow"></div>
       <div class="container hero-grid">
         <div class="hero-copy">
@@ -73,11 +73,11 @@
   endpoint: config,
   containerId: <span class="c-str">"main"</span>,
   appRoot: <span class="c-str">"templates"</span>,
-  route: [<span class="c-str">"beranda"</span>, <span class="c-str">"autoload"</span>],
+  route: [<span class="c-str">"home"</span>, <span class="c-str">"autoload"</span>],
 }).run();
 
-<span class="c-dim">// templates/beranda.js — sebuah halaman</span>
-<span class="c-key">export async function</span> beranda(page, route) {
+<span class="c-dim">// templates/home.js — sebuah halaman</span>
+<span class="c-key">export async function</span> home(page, route) {
   route.register(page, <span class="c-key">async</span> (name, container) => {
     container.innerHTML = <span class="c-str">`&lt;h1&gt;Nxdom Framework&lt;/h1&gt;`</span>;
   });
@@ -195,7 +195,7 @@
           <div class="pf-code" aria-hidden="true">
 <pre>NXUI.Tatiye({
   appRoot: <span class="c-str">"templates"</span>,
-  route: [<span class="c-str">"beranda"</span>, <span class="c-str">"autoload"</span>],
+  route: [<span class="c-str">"home"</span>, <span class="c-str">"autoload"</span>],
 }).run();</pre>
           </div>
         </a>
