@@ -232,7 +232,7 @@ code, pre { font-family: var(--mono); }
 .eco-card p { margin: 0; color: var(--muted); font-size: 0.9rem; }
 
 /* Contact */
-.contact-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(220px, 1fr)); gap: 18px; }
+.contact-grid { display: grid; grid-template-columns: repeat(5, 1fr); gap: 14px; }
 .contact-card {
   display: flex; flex-direction: column; gap: 4px; text-align: center;
   background: var(--panel); border: 1px solid var(--line); border-radius: var(--radius); padding: 26px 20px; box-shadow: var(--shadow-sm);
@@ -327,4 +327,5 @@ code, pre { font-family: var(--mono); }
   font-size: 0.72rem; color: var(--muted); text-align: center;
   padding: 6px 2px 0; font-family: var(--mono, monospace);
 }
-.history-gallery img:hover { transform: none; opacity: 0.9; }
+.history-gallery img:hover { transform: none; opacity: 0.9; }@media (max-width: 900px) { .contact-grid { grid-template-columns: repeat(2, 1fr); } }
+@media (max-width: 560px) { .contact-grid { grid-template-columns: 1fr; } }
