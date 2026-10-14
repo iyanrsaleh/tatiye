@@ -303,7 +303,7 @@ code, pre { font-family: var(--mono); }
   display: inline-block; font-size: 0.72rem; font-weight: 700; letter-spacing: 0.1em;
   text-transform: uppercase; color: var(--accent); margin-bottom: 8px;
 }
-.history-block h3 { font-size: 1.15rem; margin-bottom: 12px; }
+.history-block h3 { font-size: 1.3rem; margin-bottom: 14px; letter-spacing: -0.02em; }
 .history-block p { font-size: 0.95rem; color: var(--muted); margin-bottom: 10px; }
 .history-block p:last-of-type { margin-bottom: 0; }
 .history-block strong { color: var(--text); }
