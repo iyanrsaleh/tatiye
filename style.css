@@ -317,7 +317,7 @@ code, pre { font-family: var(--mono); }
   margin: 14px 0 4px;
 }
 .history-gallery img {
-  width: 100%; height: 150px; object-fit: cover;
+  width: 100%; height: 210px; object-fit: cover;
   border-radius: 10px; border: 1px solid var(--line);
   transition: transform 0.2s ease;
 }
