@@ -317,9 +317,14 @@ code, pre { font-family: var(--mono); }
   margin: 14px 0 4px;
 }
 .history-gallery img {
-  width: 100%; height: 210px; object-fit: cover;
+  width: 100%; height: 280px; object-fit: cover;
   border-radius: 10px; border: 1px solid var(--line);
   transition: transform 0.2s ease;
 }
 .history-gallery img:hover { transform: scale(1.03); }
-@media (max-width: 768px) { .history-gallery { grid-template-columns: 1fr; } .history-gallery img { height: auto; } }
+@media (max-width: 768px) { .history-gallery { grid-template-columns: 1fr; } .history-gallery img { height: auto; } }.history-gallery a { display: block; text-decoration: none; }
+.history-gallery figcaption {
+  font-size: 0.72rem; color: var(--muted); text-align: center;
+  padding: 6px 2px 0; font-family: var(--mono, monospace);
+}
+.history-gallery img:hover { transform: none; opacity: 0.9; }
