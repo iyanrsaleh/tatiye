@@ -91,7 +91,7 @@ const I18N = {
     "hist.badge": "Sejak 2015",
     "hist.title": "15 Tahun Membangun - Kini Tanpa Anggaran, Tetap Jalan",
     "hist.p1": "Domain <strong>tatiye.net</strong> pertama kali terdaftar <strong>11 November 2015</strong> - dan kerja membangun sistem telah berjalan <strong>\u00b115 tahun</strong>, sebagian besar dalam kerja sama dengan instansi pemerintahan.",
-    "hist.p2": "Kegiatan terakhir kami bersama pemerintah tercatat <strong>2024</strong>: tim kami mendampingi <strong>Pemkab Pohuwato</strong> membangun portal satu data dalam program magang <strong>Kementerian Kominfo</strong> (foto di bawah). Pada <strong>2026</strong>, kebijakan efisiensi anggaran mengakhiri kerja sama itu. Jawaban kami: <strong>membuka seluruh akumulasi karya sebagai open source berlisensi MIT</strong> lewat Git, dan terus mengembangkannya tanpa anggaran.",
+    "hist.p2": "Pada <strong>2026</strong>, kebijakan efisiensi anggaran mengakhiri kerja sama itu. Jawaban kami: <strong>membuka seluruh akumulasi karya sebagai open source berlisensi MIT</strong> lewat Git, dan terus mengembangkannya tanpa anggaran.",
     "foot.web": "iyanrsaleh.github.io/tatiye",
     "foot.sponsor": "Sponsor",
     "foot.copy": "© 2026 PT Tatiye Digital Solusindo."
@@ -186,7 +186,7 @@ const I18N = {
     "hist.badge": "Since 2015",
     "hist.title": "15 Years of Building - Now Unfunded, Still Running",
     "hist.p1": "The <strong>tatiye.net</strong> domain was first registered on <strong>November 11, 2015</strong> - and our work building systems spans <strong>~15 years</strong>, much of it in cooperation with government institutions.",
-    "hist.p2": "Our last recorded work with government was in <strong>2024</strong>: our team supported <strong>Pohuwato Regency</strong> building its one-data portal during the <strong>Kominfo Ministry internship program</strong> (photos below). In <strong>2026</strong>, budget-efficiency policies ended that cooperation. Our answer: <strong>releasing the entire accumulated work as MIT-licensed open source</strong> via Git, and continuing development without any budget.",
+    "hist.p2": "In <strong>2026</strong>, budget-efficiency policies ended that cooperation. Our answer: <strong>releasing the entire accumulated work as MIT-licensed open source</strong> via Git, and continuing development without any budget.",
     "foot.web": "iyanrsaleh.github.io/tatiye",
     "foot.sponsor": "Sponsor",
     "foot.copy": "© 2026 PT Tatiye Digital Solusindo."
