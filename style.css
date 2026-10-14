@@ -295,16 +295,19 @@ code, pre { font-family: var(--mono); }
 /* History block (sejarah & krisis 2026) */
 .history-block {
   margin-top: 48px; padding: 28px 30px;
-  background: var(--panel, #f7f5f2); border: 1px solid var(--line, #e5e0da);
-  border-left: 4px solid #db61a2; border-radius: 14px;
+  background: var(--panel); border: 1px solid var(--line);
+  border-left: 4px solid var(--accent); border-radius: 14px;
+  box-shadow: var(--shadow-sm, 0 1px 2px rgb(15 23 42 / 5%));
 }
 .history-badge {
   display: inline-block; font-size: 0.72rem; font-weight: 700; letter-spacing: 0.1em;
-  text-transform: uppercase; color: #db61a2; margin-bottom: 8px;
+  text-transform: uppercase; color: var(--accent); margin-bottom: 8px;
 }
 .history-block h3 { font-size: 1.15rem; margin-bottom: 12px; }
-.history-block p { font-size: 0.95rem; color: var(--muted, #5a5248); }
+.history-block p { font-size: 0.95rem; color: var(--muted); margin-bottom: 10px; }
+.history-block p:last-of-type { margin-bottom: 0; }
+.history-block strong { color: var(--text); }
 .history-quote {
-  font-style: italic; font-weight: 500; color: var(--text, #2a2520);
-  border-top: 1px dashed var(--line, #e5e0da); padding-top: 12px; margin-top: 12px; margin-bottom: 0;
+  font-style: italic; font-weight: 500; color: var(--text);
+  border-top: 1px dashed var(--line-strong); padding-top: 12px; margin-top: 14px; margin-bottom: 0;
 }
