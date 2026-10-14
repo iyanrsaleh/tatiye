@@ -91,7 +91,7 @@ const I18N = {
     "hist.badge": "Berdiri sejak 2015",
     "hist.title": "15 Tahun Membangun. Ditinggal, Bukan Menyerah.",
     "hist.p1": "Domain <strong>tatiye.net</strong> pertama kali terdaftar <strong>11 November 2015</strong> - dan kerja membangun sistem telah berjalan <strong>\u00b115 tahun</strong>, sebagian besar dalam kerja sama dengan instansi pemerintahan.",
-    "hist.p2": "Tahun <strong>2026</strong> kerja sama itu diakhiri oleh kebijakan efisiensi anggaran. Kami tidak berhenti. Seluruh karya <strong>kami lepaskan sebagai open source MIT</strong> lewat Git - dan pengembangan berlanjut, tanpa anggaran, tanpa izin siapa pun.",
+    "hist.p2": "Tahun <strong>2026</strong> kerja sama berakhir. Seluruh karya kami lepaskan sebagai <strong>open source MIT</strong> lewat Git - dan pengembangan berlanjut, tanpa anggaran, tanpa izin siapa pun.",
     "foot.web": "iyanrsaleh.github.io/tatiye",
     "foot.sponsor": "Sponsor",
     "foot.copy": "© 2026 PT Tatiye Digital Solusindo."
@@ -186,7 +186,7 @@ const I18N = {
     "hist.badge": "Standing since 2015",
     "hist.title": "15 Years of Building. Left Behind, Not Giving Up.",
     "hist.p1": "The <strong>tatiye.net</strong> domain was first registered on <strong>November 11, 2015</strong> - and our work building systems spans <strong>~15 years</strong>, much of it in cooperation with government institutions.",
-    "hist.p2": "In <strong>2026</strong> that cooperation was ended by budget-efficiency policy. We did not stop. The entire work is now <strong>released as MIT open source</strong> via Git - and development continues: no budget, no permission needed.",
+    "hist.p2": "In <strong>2026</strong> the cooperation ended. All of our work is released as <strong>MIT open source</strong> via Git - and development continues: no budget, no permission needed.",
     "foot.web": "iyanrsaleh.github.io/tatiye",
     "foot.sponsor": "Sponsor",
     "foot.copy": "© 2026 PT Tatiye Digital Solusindo."
