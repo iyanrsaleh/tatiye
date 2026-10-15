@@ -90,8 +90,8 @@ const I18N = {
     "foot.company": "PT Tatiye Digital Solusindo",
     "hist.badge": "Berdiri sejak 2015",
     "hist.title": "2015-2026, dan Berlanjut.",
-    "hist.p1": "Domain <strong>tatiye.net</strong> pertama kali terdaftar <strong>11 November 2015</strong> - dan kerja membangun sistem telah berjalan <strong>\u00b115 tahun</strong>, sebagian besar dalam kerja sama dengan instansi pemerintahan.",
-    "hist.p2": "Tahun <strong>2026</strong> kerja sama berakhir. Seluruh karya kami lepaskan sebagai <strong>open source MIT</strong> lewat Git - dan pengembangan berlanjut, tanpa izin siapa pun.",
+    "hist.p1": "Domain <strong>tatiye.net</strong> pertama kali terdaftar <strong>11 November 2015</strong> - dan kerja membangun sistem telah berjalan <strong>\u00b115 tahun</strong>.",
+    "hist.p2": "Tahun <strong>2026</strong> kami membuka seluruh karya. Semuanya dirilis sebagai <strong>open source MIT</strong> lewat Git - dan pengembangan berlanjut, tanpa izin siapa pun.",
     "foot.web": "iyanrsaleh.github.io/tatiye",
     "foot.sponsor": "Sponsor",
     "foot.copy": "© 2026 PT Tatiye Digital Solusindo."
@@ -185,8 +185,8 @@ const I18N = {
     "foot.company": "PT Tatiye Digital Solusindo",
     "hist.badge": "Standing since 2015",
     "hist.title": "2015-2026, and Continuing.",
-    "hist.p1": "The <strong>tatiye.net</strong> domain was first registered on <strong>November 11, 2015</strong> - and our work building systems spans <strong>~15 years</strong>, much of it in cooperation with government institutions.",
-    "hist.p2": "In <strong>2026</strong> the cooperation ended. All of our work is released as <strong>MIT open source</strong> via Git - and development continues: no permission needed.",
+    "hist.p1": "The <strong>tatiye.net</strong> domain was first registered on <strong>November 11, 2015</strong> - and our work building systems spans <strong>~15 years</strong>.",
+    "hist.p2": "In <strong>2026</strong> we opened all of our work. Everything is released as <strong>MIT open source</strong> via Git - and development continues: no permission needed.",
     "foot.web": "iyanrsaleh.github.io/tatiye",
     "foot.sponsor": "Sponsor",
     "foot.copy": "© 2026 PT Tatiye Digital Solusindo."
