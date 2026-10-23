@@ -273,6 +273,36 @@ code, pre { font-family: var(--mono); }
 .footer-copy { width: 100%; color: var(--muted); font-size: 0.8rem; margin: 0; }
 
 /* Responsive */
+
+/* ================= Ekosistem NXDOM ================= */
+.ecos {
+  border-top: 1px solid var(--line, #eee);
+  border-bottom: 1px solid var(--line, #eee);
+  background: var(--surface, #faf8f5);
+  padding: 26px 0 30px;
+}
+.ecos-label {
+  color: var(--accent-strong); font-weight: 600;
+  font-size: 0.78rem; letter-spacing: 1px; text-transform: uppercase;
+  margin: 0 0 16px;
+}
+.ecos-grid {
+  display: grid; grid-template-columns: repeat(4, 1fr);
+  gap: 16px; margin-bottom: 18px;
+}
+.ecos-item {
+  border: 1px solid var(--line, #eee); border-radius: 10px;
+  background: #fff; padding: 14px 18px;
+}
+.ecos-item .num {
+  display: block; font-weight: 700; font-size: 1.45rem;
+  color: var(--accent-strong); line-height: 1.2;
+}
+.ecos-item .lbl { font-size: 0.8rem; color: var(--ink-soft, #666); }
+.ecos-link { font-size: 0.9rem; font-weight: 600; }
+
+@media (max-width: 900px) { .ecos-grid { grid-template-columns: repeat(2, 1fr); } }
+@media (max-width: 560px) { .ecos-grid { grid-template-columns: 1fr; } }
 @media (max-width: 900px) {
   .hero-grid, .about-grid, .product-feature { grid-template-columns: 1fr; }
   .legal-grid { grid-template-columns: repeat(2, 1fr); }
